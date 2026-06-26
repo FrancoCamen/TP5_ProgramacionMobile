@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_order_items",
+  "info": {
+    "displayName": "Order item",
+    "description": "Snapshot de un producto comprado"
+  },
+  "options": {},
+  "attributes": {
+    "productId": {
+      "type": "integer",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "unitPrice": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
+    },
+    "quantity": {
+      "type": "integer",
+      "required": true,
+      "min": 1
+    },
+    "subtotal": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
+    }
+  }
+}
